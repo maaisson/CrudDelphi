@@ -1,0 +1,17 @@
+program CRUD;
+
+uses
+  Vcl.Forms,
+  principal in 'principal.pas' {Form2},
+  dm in 'dm.pas' {Form3},
+  uConexao in 'uConexao.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm3, Form3);
+  Application.Run;
+end.

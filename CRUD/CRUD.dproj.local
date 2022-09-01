@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/01 08:43:06.000.495,=C:\Users\maisson.fernandes\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/07/01 09:10:40.000.216,=C:\Users\maisson.fernandes\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/07/01 09:10:56.000.490,=C:\Users\maisson.fernandes\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/07/01 09:37:50.000.335,C:\Users\maisson.fernandes\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Projetos\CRUD\dm.dfm</Transaction>
+    <Transaction>2022/07/01 09:37:50.000.335,C:\Users\maisson.fernandes\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Projetos\CRUD\dm.pas</Transaction>
+    <Transaction>2022/07/01 09:37:54.000.488,C:\Users\maisson.fernandes\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Projetos\CRUD\principal.dfm</Transaction>
+    <Transaction>2022/07/01 09:37:54.000.488,C:\Users\maisson.fernandes\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Projetos\CRUD\principal.pas</Transaction>
+    <Transaction>2022/07/01 09:37:59.000.408,C:\Users\maisson.fernandes\Documents\Embarcadero\Studio\Projects\Project3.dproj=C:\Projetos\CRUD\CRUD.dproj</Transaction>
+    <Transaction>2022/07/01 10:45:03.000.615,=C:\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/07/01 10:49:14.000.777,C:\Projetos\CRUD\Unit1.pas=C:\Projetos\CRUD\uConexao.pas</Transaction>
+    <Transaction>2022/07/01 11:48:08.000.472,=C:\Projetos\CRUD\Unit1.pas</Transaction>
+    <Transaction>2022/07/01 12:28:10.000.807,C:\Projetos\CRUD\Unit1.pas=C:\Projetos\CRUD\DMPRINCIPAL.pas</Transaction>
+    <Transaction>2022/07/01 12:28:10.000.807,C:\Projetos\CRUD\Unit1.dfm=C:\Projetos\CRUD\DMPRINCIPAL.dfm</Transaction>
+    <Transaction>2022/07/01 13:53:43.000.686,C:\Projetos\CRUD\dm.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

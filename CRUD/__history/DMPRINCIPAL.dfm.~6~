@@ -1,0 +1,40 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 413
+  Width = 612
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'CharacterSet=iso8859_1'
+      'DriverID=FB'
+      'User_Name=sysdba'
+      'Password=masterkey')
+    LoginPrompt = False
+    Transaction = FDTransaction1
+    Left = 32
+    Top = 24
+  end
+  object FBDriverLink: TFDPhysFBDriverLink
+    Left = 120
+    Top = 24
+  end
+  object FDGUIxWaitCursor: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 240
+    Top = 24
+  end
+  object Salvar: TFDTransaction
+    Connection = Conexao
+    Left = 24
+    Top = 80
+  end
+  object FDTransaction1: TFDTransaction
+    Connection = Conexao
+    Left = 88
+    Top = 80
+  end
+  object ibtPessoa: TIBTransaction
+    Left = 160
+    Top = 160
+  end
+end

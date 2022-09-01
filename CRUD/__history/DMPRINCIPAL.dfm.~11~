@@ -1,0 +1,52 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  Height = 413
+  Width = 612
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'CharacterSet=iso8859_1'
+      'Protocol='
+      'Password=masterkey'
+      'DriverID=FB')
+    LoginPrompt = False
+    Left = 32
+    Top = 24
+  end
+  object FBDriverLink: TFDPhysFBDriverLink
+    Left = 120
+    Top = 24
+  end
+  object FDGUIxWaitCursor: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 240
+    Top = 24
+  end
+  object Salvar: TFDTransaction
+    Options.AutoStart = False
+    Options.AutoStop = False
+    Connection = Conexao
+    Left = 24
+    Top = 80
+  end
+  object FDTransaction1: TFDTransaction
+    Connection = Conexao
+    Left = 24
+    Top = 136
+  end
+  object ibtPessoa: TIBTransaction
+    AllowAutoStart = False
+    Left = 416
+    Top = 24
+  end
+  object FDMoniFlatFileClientLink1: TFDMoniFlatFileClientLink
+    Left = 160
+    Top = 80
+  end
+  object IBDatabase1: TIBDatabase
+    DefaultTransaction = ibtPessoa
+    ServerType = 'IBServer'
+    Left = 352
+    Top = 24
+  end
+end
